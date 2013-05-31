@@ -151,12 +151,14 @@ textarea { overflow: auto; vertical-align: top; }
 table { border-collapse: collapse; border-spacing: 0; }
 
 /* line 1, ../sass/partials/_base.scss */
-body { font-size: 1em; line-height: 1.4; }
+body { font-size: 1em; line-height: 1.4; font-family: "SansationRegular","HelveticaNeue-Light","Helvetica Neue", Helvetica, Arial, sans-serif; }
+/* line 6, ../sass/partials/_base.scss */
+.no-fontface body { font-size: 1.05em; }
 
-/* line 5, ../sass/partials/_base.scss */
+/* line 10, ../sass/partials/_base.scss */
 ::-moz-selection { background: red; text-shadow: none; }
 
-/* line 9, ../sass/partials/_base.scss */
+/* line 14, ../sass/partials/_base.scss */
 ::selection { background: red; text-shadow: none; }
 
 /* line 1, ../sass/partials/_layout.scss */
