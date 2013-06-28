@@ -178,7 +178,7 @@ body { font-size: 1em; line-height: 1.4; font-family: "SansationRegular","Helvet
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 /* line 4, ../sass/partials/_layout.scss */
-body { max-width: 1200px; margin: auto; }
+[class^="inner"] { max-width: 75em; margin: auto; }
 
 /* line 8, ../sass/partials/_layout.scss */
 header[role="banner"], footer[role="contentinfo"] { width: 100%; display: block; }
@@ -204,12 +204,12 @@ footer[role="contentinfo"] { clear: both; }
 .chapter-summary a span { display: block; font-size: .8em; }
 
 /* line 28, ../sass/partials/_modules.scss */
-.testimonial { background-color: #eee; border-top: 2px solid #ddd; border-bottom: 2px solid #ddd; padding: 1em 2em; }
+.testimonial { background-color: #f4f4f4; border-top: 2px solid #dddddd; border-bottom: 2px solid #dddddd; padding: 1em 2em; }
 /* line 33, ../sass/partials/_modules.scss */
 .testimonial > img { display: inline-block; width: 17%; }
 /* line 37, ../sass/partials/_modules.scss */
 .testimonial blockquote { margin: 0 0 0 3%; padding: 0 .5em; width: 76%; font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif; font-size: 2.4em; font-style: italic; display: inline-block; vertical-align: top; }
 /* line 46, ../sass/partials/_modules.scss */
-.testimonial blockquote footer { font-size: .6em; border-top: 2px dotted #ddd; margin: 20px 0 0 0; padding: 10px 0 0 0; }
+.testimonial blockquote footer { font-size: .6em; border-top: 2px dotted #dddddd; margin: 20px 0 0 0; padding: 10px 0 0 0; }
 /* line 53, ../sass/partials/_modules.scss */
 .testimonial blockquote.small { font-size: .9em; }

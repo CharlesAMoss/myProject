@@ -1,8 +1,8 @@
 * {
 	@include bs(border-box);
 }
-body {
-	max-width: 1200px;
+[class^="inner"] {
+	max-width: 75em;
 	margin: auto;
 }
 header[role="banner"],footer[role="contentinfo"] {

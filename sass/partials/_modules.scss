@@ -26,9 +26,9 @@
 // Testimonial
 
 .testimonial {
-      background-color: #eee;
-      border-top: 2px solid #ddd;
-      border-bottom: 2px solid #ddd;
+      background-color: lighten($color10, 95.5%);
+      border-top: 2px solid darken($color11, 13.5%);
+      border-bottom: 2px solid darken($color11, 13.5%);
       padding: 1em 2em;
       > img {
             display: inline-block;
@@ -45,7 +45,7 @@
             vertical-align: top;
             footer {
                   font-size: .6em;
-                  border-top: 2px dotted #ddd;
+                  border-top: 2px dotted darken($color11, 13.5%);
                   margin: 20px 0 0 0;
                   padding: 10px 0 0 0;
             }
