@@ -1,29 +1,36 @@
 // Main navigation links
+// ====================================================================
 
 .chapter-summary {
-	a {
-      display: block;
-      padding: .5em;
-      color: $color10;
-      opacity: .7;
-      border: none;
-      &:hover {
-      	opacity: 1;
+      //border-bottom: 2px dotted;
+      //&:last-child {
+      //    border: none;
+      //}
+      a {
+            display: block;
+            padding: .5em;
+            color: $color10;
+            opacity: .8;
+            border: none;
+            &:hover {
+                  opacity: 1;
+            }
+            &:visited {
+                  opacity: .9;
+            }
+            b {
+                  display: block;
+            }
+            span {
+                  display: block;
+                  font-size: .8em;
+            }
       }
-      &:visited {
-      	opacity: .9;
-      }
-      b {
-      	display: block;
-      }
-      span {
-      	display: block; 
-      	font-size: .8em;
-      }
-   }
+
 }
 
 // Testimonial
+// ====================================================================
 
 .testimonial {
       background-color: lighten($color10, 95.5%);
@@ -55,3 +62,28 @@
       }
 }
 
+// Header[banner] module
+// ====================================================================
+
+header {
+      @extend .testimonial;
+      @extend %clearfix;
+      border-top: none;
+      padding: 1em 0;
+      margin: 0 0 20px 0;
+      .header-buttons-list {
+            float: right;
+            & > * {
+                  float: left;
+                  display: inline-block;
+            }
+      }
+      .main-link {
+            @include button-links(complement(lighten($color9,48%)),complement(lighten($color9,40%)));
+      }
+      .main-link-headline {
+            font-size: 1em;
+            margin: 0;
+            display: inline-block;
+      }
+}
